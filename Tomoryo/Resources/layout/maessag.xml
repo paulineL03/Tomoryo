@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center_horizontal">
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Messages"
+            android:textSize="20dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:elevation="20dp"
+            android:background="#fed8b1"
+            android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+                android:src="@drawable/av2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="Armin"
+                android:textSize="19dp"
+                android:layout_marginLeft="75dp"
+                android:textColor="@color/colorPrimary"/>
+
+              <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text=":Nice Product"
+                android:layout_marginTop="30dp"
+                android:textSize="17dp"
+                android:layout_marginLeft="75dp"/>
+
+             <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="2hrs ago"
+                android:layout_marginTop="60dp"
+                android:textSize="14dp"
+                android:layout_marginLeft="295dp"/>
+           
+        </RelativeLayout>
+
+          <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:elevation="20dp"
+            android:background="#fed8b1"
+            android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+                android:src="@drawable/av3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="User0093"
+                android:textSize="19dp"
+                android:layout_marginLeft="75dp"
+                android:textColor="@color/colorPrimary"/>
+
+              <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text=":I want Refund"
+                android:layout_marginTop="30dp"
+                android:textSize="17dp"
+                android:layout_marginLeft="75dp"/>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="1hrs ago"
+                android:layout_marginTop="60dp"
+                android:textSize="14dp"
+                android:layout_marginLeft="295dp"/>
+           
+        </RelativeLayout>
+
+            <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:elevation="20dp"
+            android:background="#fed8b1"
+            android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+                android:src="@drawable/av4"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="User0093"
+                android:textSize="19dp"
+                android:layout_marginLeft="75dp"
+                android:textColor="@color/colorPrimary"/>
+
+              <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text=":Product damaged :("
+                android:layout_marginTop="30dp"
+                android:textSize="17dp"
+                android:layout_marginLeft="75dp"/>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="2min ago"
+                android:layout_marginTop="60dp"
+                android:textSize="14dp"
+                android:layout_marginLeft="295dp"/>
+           
+        </RelativeLayout>
+
+       <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:elevation="20dp"
+            android:background="#fed8b1"
+            android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+                android:src="@drawable/av"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="Bennett"
+                android:textSize="19dp"
+                android:layout_marginLeft="75dp"
+                android:textColor="@color/colorPrimary"/>
+
+              <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text=":Still Waiting for delivery"
+                android:layout_marginTop="30dp"
+                android:textSize="17dp"
+                android:layout_marginLeft="75dp"/>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="2min ago"
+                android:layout_marginTop="60dp"
+                android:textSize="14dp"
+                android:layout_marginLeft="295dp"/>
+           
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

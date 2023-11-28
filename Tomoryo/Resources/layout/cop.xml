@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ordered Products"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="left"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="390dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:elevation="20dp"
+        android:padding="10dp"
+        android:backgroundTint="@color/colorPrimary">
+    
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/bp"
+            android:background="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:id="@+id/bpbu"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Body Pillow Body Pillow"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:layout_marginLeft="170dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="650php"
+            android:textColor="#c1fe01"
+            android:textSize="15dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="55dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comfortable Body Pillow. Very light and easy to carry."
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="70dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel order"
+            android:textColor="#cae8ef"
+            android:textSize="15dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="140dp"
+            android:textStyle="bold"
+          android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/cancelo"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

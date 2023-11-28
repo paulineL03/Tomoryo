@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+           <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Profile"
+        android:textSize="19dp"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="@android:color/transparent"
+        android:id="@+id/propic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Info"
+        android:layout_marginLeft="10dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Name"
+        android:textSize="19dp"
+        android:layout_marginLeft="10dp"/>
+
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Email"
+        android:textSize="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="7dp"/>
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Picture"
+        android:textSize="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="7dp"/>
+
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Background Picture"
+        android:textSize="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="7dp"/>
+    
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Contact Information"
+        android:textSize="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="7dp"/>
+
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Personal Information"
+        android:textSize="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="7dp"/>
+
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Privacy Setting"
+        android:textSize="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="7dp"/>
+
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Password"
+        android:textSize="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="7dp"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Other Accounts"
+        android:layout_marginLeft="10dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+            android:src="@drawable/goo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:text="hotdog@gmail.com"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"/>
+
+          <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:text="Unbind"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="100dp"
+            android:textSize="20dp"/>
+    </LinearLayout>
+</LinearLayout>

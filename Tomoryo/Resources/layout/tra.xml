@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transaction History"
+            android:textSize="20dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+            android:padding="10dp"
+            android:elevation="15dp"
+            android:background="#efefef">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="Order received. Dora backpack Received by..."
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+              <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="04/29/21"
+                android:textSize="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="300dp"/>
+        </RelativeLayout>
+
+         <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+            android:padding="10dp"
+            android:elevation="15dp"
+            android:background="#efefef"
+            android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="Payment for Dora Backpack Successful."
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+              <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="04/27/21"
+                android:textSize="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="300dp"/>
+        </RelativeLayout>
+
+         <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+            android:padding="10dp"
+            android:elevation="15dp"
+            android:background="#efefef"
+            android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="Sign Up Complete! Welcome to Tomoryo."
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+              <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="03/31/21"
+                android:textSize="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="300dp"/>
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

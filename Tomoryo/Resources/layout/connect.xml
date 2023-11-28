@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bind Account"
+        android:layout_gravity="left"
+        android:padding="5dp"
+        android:textSize="20dp"/>
+
+<LinearLayout
+    android:layout_width="400dp"
+    android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/goo"
+            android:layout_marginLeft="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:text="Google"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#ffffff"
+            android:textColor="?android:attr/colorPrimaryDark"/></LinearLayout>
+
+    <LinearLayout
+    android:layout_width="400dp"
+    android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/g"
+            android:layout_marginLeft="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:text="GCash"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:backgroundTint="#ffffff"
+            android:textColor="?android:attr/colorPrimaryDark"/></LinearLayout>
+
+    
+    <LinearLayout
+    android:layout_width="400dp"
+    android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pm"
+            android:layout_marginLeft="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:text="PayMaya"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:backgroundTint="#ffffff"
+            android:textColor="?android:attr/colorPrimaryDark"/></LinearLayout>
+</LinearLayout>

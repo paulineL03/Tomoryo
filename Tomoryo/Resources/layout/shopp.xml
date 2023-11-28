@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+     <SearchView
+        android:layout_width="380dp"
+        android:layout_height="30dp"
+        android:queryHint="Search..."
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:background="#D3D3D3"
+          android:elevation="10dp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+        android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+            <!--Categories-->
+    <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories:"
+            android:textSize="17dp"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:text="bag"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/colorPrimaryDark"/>
+             <Button
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:text="Jacket"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/colorPrimaryDark"/>
+
+             <Button
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="Shirt"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/colorPrimaryDark"/>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:padding="0dp"
+                android:text="80+"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+            <!-- End of Categ-->
+          
+
+            <!--Mismong part-->
+       <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp">
+              <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    android:text="Products You may Like"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"/>
+                
+                <!--Ung prods-->
+                <LinearLayout 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                  
+                    <!--Ung drip-->
+                            <LinearLayout
+                                android:layout_width="150dp"
+                                android:layout_height="240dp"
+                                android:orientation="vertical"
+                                android:background="#deeff5">
+                         <ImageButton
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/drip"
+                        android:scaleType="fitXY"
+                            android:layout_marginTop="5dp"
+                            android:layout_gravity="center_horizontal"
+                        android:background="@android:color/transparent"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Drip Jacket"
+                            android:textSize="17dp"
+                            android:layout_gravity="center_horizontal"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="150php"
+                            android:textColor="#006400"
+                            android:padding="5dp"/>
+                         <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="140sold"
+                            android:layout_marginLeft="5dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Available in Blue, Red,Pink"
+                            android:layout_marginLeft="5dp"/>
+                </LinearLayout>
+                    <!--End Drip-->
+
+
+
+                    <!--BodyPillow-->
+                    <LinearLayout
+                                android:layout_width="150dp"
+                                android:layout_height="240dp"
+                                android:orientation="vertical"
+                                android:background="#deeff5"
+                        android:layout_marginLeft="10dp">
+                         <ImageButton
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/bp"
+                         android:id="@+id/bop"
+                        android:scaleType="fitXY"
+                            android:layout_marginTop="5dp"
+                            android:layout_gravity="center_horizontal"
+                        android:background="@android:color/transparent"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Body Pillow Body Pillow"
+                            android:textSize="15dp"
+                            android:layout_marginLeft="9dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="650php"
+                            android:textColor="#006400"
+                            android:padding="5dp"/>
+                         <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="89sold"
+                            android:layout_marginLeft="5dp"/>
+                </LinearLayout>
+                    <!--end bp-->
+                    
+                </LinearLayout>
+                <!--end of prods-->
+
+
+                    <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    android:text="Trending"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"/>
+
+
+                <!--Trending-->
+                <LinearLayout 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <LinearLayout
+                                android:layout_width="150dp"
+                                android:layout_height="240dp"
+                                android:orientation="vertical"
+                                android:background="#deeff5">
+                         <ImageButton
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/chems"
+                        android:scaleType="fitXY"
+                            android:layout_marginTop="5dp"
+                            android:layout_gravity="center_horizontal"
+                        android:background="@android:color/transparent"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dog"
+                            android:textSize="15dp"
+                            android:layout_marginLeft="9dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1150php"
+                            android:textColor="#006400"
+                            android:padding="5dp"/>
+                         <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1ksold"
+                            android:layout_marginLeft="5dp"/>
+                </LinearLayout>
+                    <!--End chems-->
+
+
+                   <!--End piattos--> 
+                <LinearLayout
+                                android:layout_width="150dp"
+                                android:layout_height="240dp"
+                                android:orientation="vertical"
+                                android:background="#deeff5"
+                        android:layout_marginLeft="10dp">
+                         <ImageButton
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/p"
+                        android:scaleType="fitXY"
+                            android:layout_marginTop="5dp"
+                            android:layout_gravity="center_horizontal"
+                        android:background="@android:color/transparent"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Piattos"
+                            android:textSize="15dp"
+                            android:layout_marginLeft="9dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="50php"
+                            android:textColor="#006400"
+                            android:padding="5dp"/>
+                         <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1Msold"
+                            android:layout_marginLeft="5dp"/>
+                </LinearLayout>
+                    <!--End p-->
+            </LinearLayout>
+                <!--End Trending row 1-->
+
+                <!--2nd row-->
+          <LinearLayout 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+                    <!---->
+                <LinearLayout
+                                android:layout_width="150dp"
+                                android:layout_height="240dp"
+                                android:orientation="vertical"
+                                android:background="#deeff5">
+                         <ImageButton
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/back"
+                        android:scaleType="fitXY"
+                            android:layout_marginTop="5dp"
+                            android:layout_gravity="center_horizontal"
+                        android:background="@android:color/transparent"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Backpack"
+                            android:textSize="15dp"
+                            android:layout_marginLeft="9dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="950php"
+                            android:textColor="#006400"
+                            android:padding="5dp"/>
+                         <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="22ksold"
+                            android:layout_marginLeft="5dp"/>
+                </LinearLayout>
+                <!--backpack end-->
+                    <!--plush-->
+                      <LinearLayout
+                                android:layout_width="150dp"
+                                android:layout_height="240dp"
+                                android:orientation="vertical"
+                                android:background="#deeff5"
+                                android:layout_marginLeft="10dp">
+                         <ImageButton
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/sq"
+                        android:scaleType="fitXY"
+                            android:layout_marginTop="5dp"
+                            android:layout_gravity="center_horizontal"
+                        android:background="@android:color/transparent"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Squirtle Plush"
+                            android:textSize="15dp"
+                            android:layout_marginLeft="9dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1250php"
+                            android:textColor="#006400"
+                            android:padding="5dp"/>
+                         <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3ksold"
+                            android:layout_marginLeft="5dp"/>
+                </LinearLayout>
+                     <!--plush-->
+                    
+
+
+                </LinearLayout>
+
+               
+
+          </LinearLayout>
+             <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Load More"
+                        android:layout_gravity="center_horizontal"/>
+       </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

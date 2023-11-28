@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    
+    <ImageView
+        android:src="@drawable/coo"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:id="@+id/imageView1"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="200sp"
+        android:layout_marginTop="20sp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company Name"
+        android:textSize="23sp"
+        android:textColor="@color/colorAccent"/>
+
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A company description provides an overview of key aspects of your business, like what you do and what makes your business unique."
+        android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="190dp">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacts"
+        android:textSize="25sp"
+        android:textColor="?android:attr/colorPrimaryDark"/>
+
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="business@gmail.com"/>
+          <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="0900902992"/>
+
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Products"
+        android:textSize="25sp"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:layout_marginTop="10sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="320sp"
+        android:layout_marginLeft="20sp">
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <ImageButton
+        android:layout_width="130sp"
+        android:layout_height="130sp"
+        android:src="@drawable/drip"
+            android:scaleType="centerCrop"
+            android:text="dfdf"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drip Jacket"
+                android:layout_marginTop="130sp"
+                android:layout_marginLeft="25sp"
+                android:textSize="15sp"
+                android:textColor="?android:attr/colorPrimaryDark"/>
+
+            </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+         <ImageButton
+        android:layout_width="130sp"
+        android:layout_height="130sp"
+        android:src="@drawable/gus"
+            android:scaleType="fitCenter"/>
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gusion Bag"
+                android:layout_marginTop="130sp"
+                android:layout_marginLeft="20sp"
+                android:textSize="15sp"
+                android:textColor="?android:attr/colorPrimaryDark"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>
